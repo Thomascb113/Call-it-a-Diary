@@ -1,0 +1,202 @@
+html{
+	background-color: black;
+	background-image: url("https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 1250px;
+	overflow: scroll;
+}
+
+.pageReferenceBox{
+	height: 90%;
+	width: 80%;
+	/*border: 2px solid red;*/
+	padding: 10px;
+	position: absolute;
+	top: 50%; left: 50%;
+	margin-top: -20%; margin-left: -40%;
+	overflow: scroll;
+}
+
+.pins{
+	background-color: rgb(230, 230, 230);
+	height: 98%;
+	width: 50%;
+	/*border: solid black;*/
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+	left: 50%;
+	margin-left: -25%;
+	overflow: scroll;
+}
+
+#TSAONGAF_Entry{
+	text-align: center;
+}
+
+#text1{
+	text-align: center;
+}
+
+#Better_Entry{
+	text-align: center;
+}
+
+#comfortable{
+	text-align: center;
+}
+
+.referencebooksBox /* The entire book tab */ {
+	background-color: rgb(230, 230, 230);
+	height: 55%;
+	width: 15%;
+	/*border: solid blue;*/
+	border-radius: 10px 10px 10px 10px;
+	position: absolute;
+	top: 10px; right: 10px;
+	overflow: scroll;
+}
+
+#books{
+	text-align: center
+}
+
+.book-info1{
+	height: 140px;
+	width: 100%;
+	position: absolute;
+	/*outline: solid black;*/
+	overflow: scroll;
+}
+
+.TSAONGAF /* The Subtle Art of Not Giving a Fuck */ {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	/*outline: solid black;*/
+	border-radius: 10px;
+	top: 5%; left: 50%;
+	margin-left: -50px;
+}
+
+.TSAONGAF_index{
+	text-align: center;
+	transition: ease-out 0.3s;
+	border-radius: 6px;
+}
+
+.TSAONGAF_index:hover{
+	box-shadow: inset 0 0 0 10px #eb7a34;
+}
+
+.index1{
+	width: 70px;
+	position: absolute;
+	top: 115px; left: 50%;
+	margin-left: -14%;
+}
+
+.book-info2{
+	height: 140px;
+	width: 100%;
+	position: absolute;
+	top: 210px;
+	/*outline: solid black;*/
+	overflow: scroll;
+}
+
+.models{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	/*outline: solid black;*/
+	border-radius: 10px;
+	top: 5%; left: 50%;
+	margin-left: -50px;
+}
+
+.Better_index{
+	text-align: center;
+	transition: ease-out 0.3s;
+	border-radius: 6px;
+}
+
+.Better_index:hover{
+	box-shadow: inset 0 0 0 10px #eb4034;
+}
+
+.index2{
+	width: 70px;
+	position: absolute;
+	top: 115px; left: 50%;
+	margin-left: -14%;
+}
+
+.socialsBox{
+	background-color: rgb(230, 230, 230);
+	height: 35%;
+	width: 15%;
+	/*border: solid blue;*/
+	border-radius: 10px 10px 10px 10px;
+	position: absolute;
+	bottom: 10px; right: 10px;
+}
+
+#Socials{
+	text-align: center;
+	overflow: scroll;
+	align-items: center;
+}
+
+.linkedInImage{
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: 5px; left: 5%;
+	border-radius: 10px;
+}
+
+.socialInfo{
+	height: 250px;
+	width: 100%;
+	/*outline: solid black;*/
+	position: absolute;
+}
+
+.whatsnextBox{
+	background-color: rgb(230, 230, 230);
+	height: 60%;
+	width: 15%;
+	/*border: solid blue;*/
+	border-radius: 10px 10px 10px 10px;
+	position: absolute;
+	top: 10px; left: 10px;
+	overflow: scroll;
+}
+
+#whatsNext{
+	text-align: center;
+}
+
+.salemsLot{
+	height: 125px;
+	width: 125px;
+	position: absolute;
+	left: 50%;
+	margin-left: -62.5px;
+	border-radius: 10px;
+}
+
+.salemsLot:hover, .linkedInImage:hover, .models:hover, .TSAONGAF:hover{
+	animation: bounce 1.2s infinite;
+}
+
+@keyframes bounce{
+	50%{
+		transform: translateY(-10px);
+	}
+}
